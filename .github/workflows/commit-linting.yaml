@@ -6,6 +6,6 @@ on:
 
 jobs:
   commitlint:
-    uses: markuslackner/github-workflows/.github/workflows/commit-linting.yaml@main
+    uses: AndreasDoblander/github-workflows-techvisits/.github/workflows/commit-linting.yaml@main
     permissions:
       contents: read # for checkout

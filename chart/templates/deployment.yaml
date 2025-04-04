@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: {{ .Release.Name }}
-          image: "ghcr.io/dt-uibk-workshop/{{ .Release.Name }}:{{ .Chart.AppVersion }}"
+          image: "ghcr.io/AndreasDoblander/{{ .Release.Name }}:{{ .Chart.AppVersion }}"
           imagePullPolicy: "IfNotPresent"
           ports:
             - name: http

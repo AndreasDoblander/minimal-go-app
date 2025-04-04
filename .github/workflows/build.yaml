@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-    uses: markuslackner/github-workflows/.github/workflows/build-docker-with-helm.yaml@main
+    uses: AndreasDoblander/github-workflows-techvisits/.github/workflows/build-docker-with-helm.yaml@main
     permissions:
       contents: write
       issues: write
